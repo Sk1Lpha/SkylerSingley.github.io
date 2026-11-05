@@ -1,0 +1,212 @@
+body {
+    background-color: #A6AAAF;
+    margin: 0;
+}
+header {
+    background-image: url(GreyLogo.png), linear-gradient(to right, #D9D9D9 20%,#222426 );
+    background-size: 100px 90px, auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    line-height: 75px;
+}
+nav {
+    font-family: "Consolas", Bahnschrift, "Arial Black";
+    background-color: #D9D9D9;
+    text-align: left;
+    width: 150px;
+    float: left;
+    min-height: 100vh;
+    margin-left: 0;
+    padding: 0;
+}
+nav a {
+    display: block;
+    background-color: #D9D9D9;
+    color: black;
+    text-decoration: none;
+    transition: background-color 2s ease;
+    width: 110px;
+    padding: 15px;
+}
+nav a:hover {
+   background-color: #243558; 
+}
+nav ul {
+    list-style: none;
+    margin-left: 0;
+    padding: 10px;
+    font-size: 1.5em;
+}
+h1 {
+    font-family: Consolas, Bahnschrift, "Arial Black";
+    padding-left: 100px;
+    margin: 0;
+}
+h2 {
+    font-family: Bahnschrift, "Arial Black", Consolas;
+    padding-left: 175px;
+}
+.contactMeHeading {
+    text-align: center;
+}
+p {
+    padding-left: 175px;
+}
+footer {
+    margin-top: 10px;
+    padding-top: 200px;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+}
+#containerimages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row; 
+    margin-top: 50px;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+.printer {
+    height: auto;
+    width: 100%;
+    max-width: 800px;
+}
+.keychainpile {
+    height: auto;
+    width: 100%;
+    max-width: 800px;
+}
+main {
+    margin-left: 10px;
+}
+main ul {
+    padding-left: 175px;
+}
+.required {
+    font-style: italic;
+    text-align: center;
+}
+input {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    margin-bottom: 8px;
+    margin-top: 1px;
+}
+label {
+    display: block;
+    text-align: center;
+}
+textarea {
+    display: block;
+    margin: 0 auto;
+}
+.questions {
+    text-align: center;
+}
+input[type="submit"] {
+    margin-top: 10px;
+    width: 100px
+}
+table {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+}
+td {
+    padding: 0.5em;
+    border: 2px solid #000000;
+    text-align: center;
+}
+th {
+    padding: 0.5em;
+    border: 2px solid #000000;
+}
+.highstock {
+    font-weight: bold;
+    color: green;
+}
+.lowstock {
+    font-weight: bold;
+    color:rgb(168, 97, 5);
+}
+.nostock {
+    font-weight: bold;
+    color:rgb(173, 0, 0);
+
+}
+.varies {
+    font-weight: bold;
+    font-style: italic;
+}
+tr:nth-of-type(odd) {
+    background-color:rgba(90, 114, 133, 0.5);
+
+}
+.tableimages {
+    width: 100px;
+}
+.productsheading {
+    text-align: center;
+}
+.productpagedesc {
+text-align: center;
+text-wrap: wrap;
+font-size: 110%;
+}
+.dropdown .trigger{
+    border-bottom: 1px solid #243558;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.dropdown .trigger::after{
+    content: "^";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+    font-weight: bold; 
+}
+.dropdown .trigger.active::after{
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.dropdown .content{
+    display: none;
+}
+.dropdown .content.active{
+    display: block;
+}
+
+.trigger {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.questionParagraph {
+    text-align:center;
+    font-size: 110%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    padding-left: 0;
+}
+.questionHeading {
+    text-align: center;
+    font-size: 200%;
+    color: white;
+    border: #243558;
+    border-radius: 0%;
+    border-style:solid;
+    background-color: #243558;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
